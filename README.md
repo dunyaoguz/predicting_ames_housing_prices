@@ -2,7 +2,7 @@
 
 The objective of this exercise was to develop a model to predict the price of houses in Ames, Iowa for the [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview/evaluation) competition on Kaggle.
 
-- Data was cleaned thoroughly: nulls were imputed, redundant columns and outliers were dropped, wrong values were fixed, ordinal and ranked attributes were encoded as numbers.
+- Data was cleaned thoroughly: nulls were imputed, redundant columns and outliers were dropped, wrong values were fixed, ordinal and binary attributes were encoded as numbers.
 - 70+ new features were engineered: interaction features were created for quality and condition related attributes, polynomial features were added for attributes that had the strongest correlation with the target variable, completely new features were designed.
 - Multiple Linear Regression, Lasso, Ridge, Elastic Net and K Neighbours Regression models were tried. Optimal hyperparameters were found and used in the latter 4 models through Cross Validation and Grid Search.
 - ANOVA and k-best feature selection were utilized, however it was seen that the more features were included, the better was the performance. Though the number of features was high, the model did not seem to suffer from overfitting.
